@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Minimalistyczna Aplikacja Webowa w React - Wizytówka Informatyka (Zen-IT)
+Aplikację można znaleźć pod adresem: **https://zen-it.pl/**
+## Opis projektu
+Projekt to minimalistyczna aplikacja webowa napisana w React, stworzona w celu praktyki oraz rozwinięcia umiejętności w tworzeniu front-endu. Głównym celem aplikacji jest zastąpienie starej, nieaktualnej strony internetowej, która powstała wiele lat temu. Nowa strona pełni rolę wizytówki dla usług świadczonych przez informatyka.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Funkcjonalność
+* **Responsywny design**: Strona została zaprojektowana w sposób responsywny, aby doskonale wyglądać i działać na różnych urządzeniach (na laptopach i komputerach). Zastosowano elastyczne układy, które dostosowują się do rozmiarów ekranu, a także dynamiczne dopasowywanie czcionek i elementów, co zapewnia optymalne doświadczenie dla użytkownika.
+* **Wizytówka usług**: Aplikacja prezentuje różnorodne usługi świadczone przez informatyka. W czytelny sposób przedstawia informacje o doświadczeniu oraz zakresie usług oferowanych przez profesjonalistę. Użytkownik może łatwo zapoznać się z dostępnymi usługami i dowiedzieć się więcej na ich temat.
+* **Przejrzysty interfejs**: Projekt został zaprojektowany z myślą o prostocie i przejrzystości. Intuicyjny interfejs użytkownika umożliwia szybkie znalezienie potrzebnych informacji. Dzięki temu użytkownik może skupić się na treści i korzystać z aplikacji bez zbędnych przeszkód.
 
-## Available Scripts
+## Jak uruchomić projekt
+1. Sklonuj repozytorium na swój lokalny komputer.
+2. Przejdź do folderu z projektem.
+3. Uruchom terminal i zainstaluj zależności przy pomocy komendy: npm install.
+4. Po zakończeniu instalacji, uruchom aplikację komendą: npm start.
+5. Aplikacja będzie dostępna pod adresem: http://localhost:3000.
 
-In the project directory, you can run:
+## DEMO
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![zen_it_demo](https://github.com/MichalZdanuk/zen_it/assets/76063659/5f7f22f5-02f0-406a-870f-add5c09d3fb5)

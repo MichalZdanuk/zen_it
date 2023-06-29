@@ -1,0 +1,36 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.logo_img {
+  width: 20vw;
+}
+
+.img_div {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d9251c; /* color of the scrollbar thumb */
+  border-radius: 5px; /* border radius of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c2bbbb; /* color of the scrollbar thumb on hover */
+}
+
+.author{
+  margin-top: 1px;
+  font-size: 1.2vw;
+  font-weight: 600;
+}

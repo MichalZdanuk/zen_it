@@ -1,0 +1,32 @@
+.footer_div {
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  color: #f7f7f7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.github_icon {
+  width: 30px;
+  border-radius: 15px;
+}
+
+.copyright_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: transform 0.45s, color 0.45s;
+  font-size: 0.6vw;
+}
+
+.copyright_div:hover {
+  transform: scale(1.05);
+  color: #d9251c;
+}
+
+.name {
+  font-size: 0.6vw;
+  font-weight: 600;
+}

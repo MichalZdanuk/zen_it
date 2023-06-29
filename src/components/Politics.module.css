@@ -1,0 +1,55 @@
+.politics-div {
+  background-color: #f8f9fa;
+  padding-top: 6vh;
+  padding-bottom: 8vh;
+}
+
+.text-with-border {
+  -webkit-text-stroke: 2px #d9251c; /* Adjust border width and color as desired */
+  color: transparent;
+}
+
+.politics-heading {
+  text-align: center;
+  font-size: 2.4vw;
+  margin-bottom: 2vw;
+  font-style: italic;
+}
+
+.politics-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.politic_div {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  align-items: center;
+  transition: transform 0.45s, color 0.45s;
+  text-align: center;
+}
+
+.politic_title{
+  font-size: 1.4vw;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+
+.politic_content{
+  font-size: 1vw;
+  margin-top: 1px;
+  font-style: italic;
+  color: #5a5858;
+}
+
+.politic_div:hover {
+  transform: scale(1.05);
+  color: #d9251c;
+}
+
+.icon{
+  font-size: 3rem;
+  /* color: #d9251c; */
+}

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import classes from "./App.module.css"
+import PersonalInfo from "./components/PersonalInfo.js";
+import Politics from "./components/Politics.js";
+import Statistics from "./components/Statistics.js";
+import Offer from "./components/Offer.js";
+import Footer from "./components/Footer.js";
+import logo from "./assets/logo.png"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes["main_container"]}>
+      <div className={classes["img_div"]}>
+        <img src={logo} className={classes["logo_img"]} alt=""/>
+        <p className={classes["author"]}>Zenon Żdanuk</p>
+      </div>
+        <PersonalInfo />
+        <Statistics />
+        <Politics />
+        <Offer />
+        <Footer />
     </div>
   );
 }
